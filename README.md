@@ -8,7 +8,7 @@
 
 ## 기능요약
 
-![alt text](src/assets/Capture1.jpg)
+![alt text](src/assets/Capture1.png)
 
 - 로그인/회원가입: 소셜 로그인 및 개인화된 기록 관리.
 - 코멘트/평점: 코멘트 작성, 평점 남기기, 즐겨찾기.
