@@ -1,50 +1,16 @@
-# React + TypeScript + Vite
+![alt text](src/assets/Logo.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 개요
 
-Currently, two official plugins are available:
+한국에는 RYM(Rate Your Music)과 같은 음악 평점 및 리뷰 사이트가 부족합니다. Vibrato는 이러한 공백을 채우기 위해, 한국 사용자들에게 특화된 맞춤형 음악 리뷰 및 커뮤니티 플랫폼을 제공합니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 기능요약
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![alt text](src/assets/Capture1.jpg)
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- 로그인/회원가입: 소셜 로그인 및 개인화된 기록 관리.
+- 코멘트/평점: 코멘트 작성, 평점 남기기, 즐겨찾기.
+- 음악 감상 연동: Spotify 등 음악 스트리밍 서비스 연결.
+- 필터/검색: 장르, 아티스트 등 다양한 필터 제공.
